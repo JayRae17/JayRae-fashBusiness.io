@@ -1,0 +1,84 @@
+@font-face {
+    font-family:"Zealot Outline";src:url("zealoto.eot?") format("eot"),
+    url("zealoto.woff") format("woff"),url("zealoto.ttf") format("truetype"),
+    url("zealoto.svg#ZealotOutline") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+body{
+    animation: fade-slide-down 2s ease-out forwards;
+    background-image: url("bck.jpg");
+    background-size: cover;
+}
+
+.head{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.home{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+h1{
+    font-family:"Zealot Outline" ;
+    font-size: 140px;
+    color: #f9f1f3;
+    text-shadow: 8px 2px #cdcde3;
+    
+}
+
+h2{
+    font-family: Verdana;
+}
+
+a{
+    color: #94eef0;
+    text-shadow: 3px 2px #a5b8b8;
+    text-decoration:none;
+    background:
+     linear-gradient(
+       to bottom, white , white);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    transition: background-size .2s;
+}
+
+a:hover{
+    cursor: pointer;
+    background-size: 4px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
